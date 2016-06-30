@@ -1,8 +1,7 @@
 # Problem Solving and Debugging
 Coding is the process of identifying and solving problems. The intent of this document is to serve as a high-level reference for diving into a complex problem, as well as mitigating against, identifying, and squashing bugs. Read through and follow these steps to avoid and solve problems in your code.
 
-### Quick Hit List
-
+## Quick List
 * Clearly **define all your inputs and outputs**.
 * **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
 * Write code that conforms to the **Single Responsiblity Principle**. Every class, method, and function should have a single purpose.
@@ -15,14 +14,14 @@ Coding is the process of identifying and solving problems. The intent of this do
 A complex problem is the combination of multiple simple problems. Therefore, **the most important step in solving a complex problem is to break it down into the smallest possible pieces.**
 
 * Start with the inputs and outputs.
-  * Determine what the expected result should look like and all the attributes you know the result should have.
-  * Next, do the same for the all the ingredients that will be used to reach the desired output. If you don't know what the ingredients are, figure out what's available and determine what of that is relevant to the problem.
-  * Write the inputs and outputs down, and as with your code, be clear and detailed. Oftentimes if the inputs and outputs of a problem are defined clearly enough, and with enough detail, the solution becomes clear.
-  * Given the inputs you've listed, what is actually relevant? Think about how the inputs can be broken down into the simplest components which will be useful. For example, are you comparing an entire array to another entire array? Or is the goal actually to compare one string from an array to a string from the other array? Or even one character at a time from each string?
+* Determine what the expected result should look like and all the attributes you know the result should have.
+* Next, do the same for the all the ingredients that will be used to reach the desired output. If you don't know what the ingredients are, figure out what's available and determine what of that is relevant to the problem.
+* Write the inputs and outputs down, and as with your code, be clear and detailed. Oftentimes if the inputs and outputs of a problem are defined clearly enough, and with enough detail, the solution becomes clear.
+* Given the inputs you've listed, what is actually relevant? Think about how the inputs can be broken down into the simplest components which will be useful. For example, are you comparing an entire array to another entire array? Or is the goal actually to compare one string from an array to a string from the other array? Or even one character at a time from each string?
 * Describe the magic in the middle. Now that you know where our problem starts and ends, describe the process by which the inputs turn into results.
-  * Write down as many ideas as you can for potential paths which will take you from beginning to end. Don't rule anything out, no matter how absurd. These can be just a few words, but it's always helpful to be detailed.
-  * Starting with the simplest idea, go through each possible path and start to write pseudocode that describes roughly the steps you want to take. Lay out your ideas in plain language to see more clearly the logic of your program as you go. If you write out your pseudocode as comments in your development environment, you'll later be able to add in actual code to match each line of pseudocode.
-  * Diagram the flow of data in your program and the actions which take place. Draw out steps in as much detail if you can. If you can draw it, you can code it.
+* Write down as many ideas as you can for potential paths which will take you from beginning to end. Don't rule anything out, no matter how absurd. These can be just a few words, but it's always helpful to be detailed.
+* Starting with the simplest idea, go through each possible path and start to write pseudocode that describes roughly the steps you want to take. Lay out your ideas in plain language to see more clearly the logic of your program as you go. If you write out your pseudocode as comments in your development environment, you'll later be able to add in actual code to match each line of pseudocode.
+* Diagram the flow of data in your program and the actions which take place. Draw out steps in as much detail if you can. If you can draw it, you can code it.
 
 ## Single Responsibility Principle (SRP)
 One of the most important steps of debugging is to prevent bugs from being created in the first place. An important concept to which your code should adhere is the Single Responsibility Principle.
@@ -67,3 +66,5 @@ This should always be your first stop after the documentation. Simply searching 
 
 ### Other People
 Don't spend more than an hour trying to solve a problem on your own. After you've exhausted online resources, talk to your neighbors. See if anyone around you has experienced and solved the problem you face, and **ask not what the solution is, but how you can solve the problem on your own**. If your neighbors also wind up stumped, and a thorough search on the internet turns up nothing, it's time to ask an instructor.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/problem-solving-and-debugging'>Problem Solving And Debugging</a> on Learn.co and start learning to code for free.</p>
