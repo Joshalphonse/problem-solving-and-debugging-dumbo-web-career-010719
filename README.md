@@ -66,11 +66,11 @@ Add in breakpoints to watch as variables in your code are declared, instantiated
 ## Resources
 There are many resources you can and should use to help solve problems and debug your code. Every major problem you come across can be broken down into smaller problems, and almost every one of those smaller problems has been experienced and solved by someone else.
 
+### Google
+This should always be your first stop. Simply searching for an error code or a clear description of the problem you face will bring you multiple potential solutions. If relevant results don't show up, increase the specificity of your search terms. Conversely, you can abstract your search to more generally describe the problem at hand.
+
 ### Documentation
 Official documentation is an often-overlooked resource for problem solving, and should be the starting point for much of your debugging. Use documentation to understand the capabilities, properties, and characteristics of the elements of your code. If you're not sure what something can do, or how to interact with or implement a piece of code, dig into the documentation.
-
-### Google
-This should always be your first stop after the documentation. Simply searching for an error code or a clear description of the problem you face will bring you multiple potential solutions. If relevant results don't show up, increase the specificity of your search terms. Conversely, you can abstract your search to more generally describe the problem at hand.
 
 ### Other People
 Don't spend more than an hour trying to solve a problem on your own. After you've exhausted online resources, talk to your neighbors. See if anyone around you has experienced and solved the problem you face, and **ask not what the solution is, but how you can solve the problem on your own**. If your neighbors also wind up stumped, and a thorough search on the internet turns up nothing, it's time to ask an instructor.
